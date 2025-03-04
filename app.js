@@ -6,9 +6,9 @@ function adicionarAmigo() {
     if (nomes == ''){
         alert('O campo não pode ficar em branco, informe um nome');
     } else {
-       nomes == lista.push(nomes);
+       lista.push(nomes);
+       console.log(lista);
     }
-
 };
-adicionarAmigo();
 
+adicionarAmigo();
